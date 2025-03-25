@@ -37,18 +37,19 @@ The significant challenges associated with rare diseases in the medical and rese
 
 ```
 Jaber-Valinejad/
-├── Analysis/               <- Code and notebooks for various analyses
-├── AuraDB/                <- Configs or scripts for AuraDB setup or integration
-├── Data/                  <- Datasets and preprocessed data
-├── Docs/                  <- Documentation, drafts, or notes
-├── Figs/                  <- Figures and visualizations
-├── LLM/                   <- Scripts or notebooks for working with large language models
-├── Neo4j/                 <- Graph database queries, data models, or Cypher scripts
-├── Dockerfile             <- Docker configuration for environment setup
-├── LICENSE                <- Repository license
-├── README.md              <- Project overview (You are here!)
-├── Report.md              <- Detailed report or documentation
-└── requirements-dev.txt   <- Development environment dependencies
+├── Analysis/                          <- Notebooks, scripts, or results for data analysis
+├── Data/                              <- Raw or preprocessed data files 
+├── Docs/                              <- Project documentation, drafts, or design notes
+├── Figs/                              <- Generated figures, plots, and visualizations
+├── Methods/                           <- Descriptions or scripts related to methodologies used
+├── Tableau/                           <- Tableau dashboards, exports, or workbook files
+├── src/                               <- Source code for data processing, modeling, etc.
+├── .gitignore                         <- Specifies files and directories to ignore in Git
+├── README.md                          <- Project overview and usage instructions (You are here!)
+├── disease-standards-and-databases.md <- Supplemental markdown file (e.g., knowledge base)
+├── requirements.txt                   <- Core Python dependencies for running the project
+├── requirements-dev.txt              <- Additional dependencies for development or testing
+└── setup.py                           <- Script for installing the package 
 ```
 
 ## Data and Resources
